@@ -12,7 +12,7 @@ SCB 10X has introduced **"Typhoon"**, a cutting-edge **Large Language Model (LLM
 🛠  [Steps to Apply the Model](#🛠-steps-to-apply-the-model)  
 📈 [Benefits & Drawbacks](#📈-benefits-and-drawbacks)  
 🔥 [Value Proposition](#🔥-value-proposition)  
-☁️ [Implementation: Cloud vs. On-Premise Optimization](#☁implementation-cloud-vs-on-premise-optimization)  
+☁️ [Implementation: Cloud vs. On-Premise Optimization](#implementation-cloud-vs-on-premise-optimization)  
 
 --
 ### 🔎 What is the Typhoon Model?
