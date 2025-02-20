@@ -5,14 +5,14 @@ SCB 10X has introduced **"Typhoon"**, a cutting-edge **Large Language Model (LLM
 
 **Last Updated**: February 20, 2025 
 
-🔎 [What is the Typhoon Model?](#🔎-what-is-the-typhoon-model)  
-🎯 [Objective and History](#🎯-objective-and-history)  
-⚖️ [Comparison with Other Models](#⚖️-comparison-with-competitors)  
-💡 [Use Case Scenarios](#💡-use-case-scenarios)  
-🛠  [Steps to Apply the Model](#🛠-steps-to-apply-the-model)  
-📈 [Benefits & Drawbacks](#📈-benefits-and-drawbacks)  
-🔥 [Value Proposition](#🔥-value-proposition)  
-☁️ [Implementation: Cloud vs. On-Premise Optimization](#implementation-cloud-vs-on-premise-optimization)  
+🔎 [What is the Typhoon Model?](#-what-is-the-typhoon-model)  
+🎯 [Objective and History](#-objective-and-history)  
+⚖️ [Comparison with Other Models](#comparison-with-competitors)  
+💡 [Use Case Scenarios](#-use-case-scenarios)  
+🛠  [Steps to Apply the Model](#-steps-to-apply-the-model)  
+📈 [Benefits & Drawbacks](#-benefits-and-drawbacks)  
+🔥 [Value Proposition](#-value-proposition)  
+☁️ [Implementation: Cloud vs. On-Premise Optimization](#-implementation-cloud-vs-on-premise-optimization)  
 
 --
 ### 🔎 What is the Typhoon Model?
@@ -115,7 +115,7 @@ Implementing Typhoon can:
 
 ---
 
-### ☁️ Implementation: Cloud vs. On-Premise Optimization
+### ☁️ Implementation Cloud vs On-Premise Optimization
 
 #### Cloud Deployment:
 
