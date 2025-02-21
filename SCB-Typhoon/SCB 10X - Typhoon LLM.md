@@ -3,7 +3,7 @@ SCB 10X has introduced **"Typhoon"**, a cutting-edge **Large Language Model (LLM
 
 **Written by**: Anyamanee Pornpanvattana 
 
-**Last Updated**: February 20, 2025 
+**Last Updated**: February 21, 2025 
 
 🔎 [What is the Typhoon Model?](#-what-is-the-typhoon-model)  
 🎯 [Objective and History](#-objective-and-history)  
@@ -12,7 +12,9 @@ SCB 10X has introduced **"Typhoon"**, a cutting-edge **Large Language Model (LLM
 🛠  [Steps to Apply the Model](#-steps-to-apply-the-model)  
 📈 [Benefits & Drawbacks](#-benefits-and-drawbacks)  
 🔥 [Value Proposition](#-value-proposition)  
-☁️ [Implementation: Cloud vs. On-Premise Optimization](#-implementation-cloud-vs-on-premise-optimization)  
+☁️ [Implementation: Cloud vs. On-Premise Optimization](#-implementation-optimization)
+
+💰 [Cost Comparison Table: One-Time Payment vs. Subscription](#-cost-comparison)
 
 --
 ### 🔎 What is the Typhoon Model?
@@ -80,16 +82,6 @@ The primary goal of Typhoon is to bridge the gap in AI resources for the Thai la
 
 ---
 
-### 🛠 Steps to Apply the Model
-
-1. **Define Objectives:** Identify specific tasks (e.g., translation, summarization) where the model will be applied.
-2. **Access the Model:** Download the pre-trained version from [Hugging Face](https://huggingface.co/scb10x/typhoon-7b) or use the instruction-tuned API.
-3. **Fine-Tune (Optional):** Train the model further using domain-specific datasets with techniques like LoRA for efficiency.
-4. **Integrate into Workflow:** Use APIs or deploy on-prem/cloud environments for seamless integration into applications.
-5. **Evaluate Performance:** Test outputs against benchmarks to ensure accuracy and relevance.
-
----
-
 ### 📈 Benefits and Drawbacks
 
 **Benefits:**
@@ -115,20 +107,106 @@ Implementing Typhoon can:
 
 ---
 
-### ☁️ Implementation Cloud vs On-Premise Optimization
+### 🛠 Steps to Apply the Model
 
-#### Cloud Deployment:
+1. **Define Objectives:** Identify specific tasks (e.g., translation, summarization) where the model will be applied.
+2. **Access the Model:** Download the pre-trained version from [Hugging Face](https://huggingface.co/scb10x/typhoon-7b) or use the instruction-tuned API.
+3. **Fine-Tune (Optional):** Train the model further using domain-specific datasets with techniques like LoRA for efficiency.
+4. **Integrate into Workflow:** Use APIs or deploy on-prem/cloud environments for seamless integration into applications.
+5. **Evaluate Performance:** Test outputs against benchmarks to ensure accuracy and relevance.
 
-- Use platforms like AWS or Google Cloud for scalability.
-- Leverage pre-configured APIs to reduce infrastructure setup time.
-- Optimize costs by using serverless functions or spot instances.
+---
+
+### ☁️ Implementation Optimization
+**Implementation: Cloud vs. On-Premise Optimization**
 
 
-#### On-Premise Deployment:
+#### How to Implement Typhoon
+1. **Define Project Requirements**: Determine the specific use case (e.g., Customer Service Automation) and identify the necessary features.
+2. **Select Deployment Method**:
+    - **Cloud**: Choose a cloud provider (e.g., AWS) for scalability and ease of access.
+    - **On-Premise**: Set up local servers with sufficient computational resources to run the model.
+3. **Access the Typhoon Model**: Download the pre-trained model from Hugging Face or access it via API.
+4. **Integration**: Integrate the model into your application, ensuring it can handle user inputs and provide responses.
+5. **Testing and Optimization**: Test the model's performance in real-world scenarios and optimize based on feedback.
 
-- Install the model on local hardware using frameworks like PyTorch.
-- Optimize costs by using smaller parameter versions (e.g., 7B) for edge devices.
-- Employ quantization techniques to reduce memory usage while maintaining performance.
+    **Cloud Deployment:**
+    - Use platforms like AWS for scalability.
+    - Leverage pre-configured APIs to reduce infrastructure setup time.
+    - Optimize costs by using serverless functions or spot instances.
+
+    **On-Premise Deployment:**
+    - Install the model on local hardware using frameworks like PyTorch.
+    - Optimize costs by using smaller parameter versions (e.g., 7B) for edge devices.
+    - Employ quantization techniques to reduce memory usage while maintaining performance.
+
+
+#### Cost Resources: On-Premise vs. AWS Cloud
+
+**On-Premise Costs**:
+- **Initial Setup**: Hardware costs (servers, GPUs).
+- **Maintenance**: Ongoing costs for electricity, cooling, and IT staff.
+- **Software Licensing**: If applicable, costs for software licenses.
+
+**AWS Cloud Costs**:
+- **Compute Resources**: Charges for EC2 instances, particularly GPU-based instances for AI workloads.
+- **Storage Costs**: Charges for data storage (e.g., S3).
+- **Data Transfer Costs**: Charges for data transfer in and out of AWS.
+
+
+#### AWS Cloud Services for Customer Service Automation
+
+When creating a project for Customer Service Automation using Typhoon on AWS, consider utilizing the following services:
+
+1. **Amazon EC2**: For running the Typhoon model on scalable virtual servers.
+2. **Amazon S3**: For storing training data and model artifacts.
+3. **Amazon RDS or DynamoDB**: For managing customer interaction data.
+4. **Amazon API Gateway**: To create APIs that allow your application to interact with the Typhoon model.
+
+
+#### On-Premise Specifications
+
+| **Component** | **Requirement** |
+| :-- | :-- |
+| Operating System | Windows 10/11 or Debian/Ubuntu |
+| CPU | 64-bit processor, minimum 4 cores |
+| Memory (RAM) | Minimum 16 GB recommended |
+| Storage | SSD, minimum 10 GB + additional space |
+| Network | Stable internet connection |
+| Cooling | Adequate cooling system |
+| Power Supply | Reliable power source |
+
+These specifications ensure that the Typhoon model can run efficiently and effectively in an on-premise environment, providing the necessary resources to handle various workloads associated with natural language processing tasks.
+
+
+### 💰 Cost Comparison
+
+This table compares the costs associated with an on-premise implementation (one-time payment) versus using AWS cloud services (subscription model) for a project like Customer Service Automation. The costs are estimated for both a one-month and one-year period.
+
+
+| **Cost Item** | **On-Premise (One-Time Payment)** | **AWS Cloud (Subscription)** |
+| :-- | :-- | :-- |
+| **Hardware Setup** | \$10,000 | N/A |
+| **Maintenance (Annual)** | \$6,000 | N/A |
+| **Software Licensing** | \$2,400 | N/A |
+| **EC2 Instances (Monthly)** | N/A | \$1,200 |
+| **S3 Storage (Monthly)** | N/A | \$100 |
+| **Data Transfer (Monthly)** | N/A | \$50 |
+| **Total Cost (1 Month)** | **\$10,000** | **\$1,350** |
+| **Total Cost (1 Year)** | **\$18,400** | **\$16,200** |
+
+- **On-Premise Costs**:
+    - The initial investment includes hardware setup and software licensing as a one-time payment.
+    - Ongoing maintenance costs are incurred annually.
+- **AWS Cloud Costs**:
+    - Monthly subscription fees for EC2 instances, S3 storage, and data transfer.
+    - Total costs can vary based on usage but provide flexibility and scalability without the need for significant upfront investment.
+
+This comparison highlights the trade-offs between a significant one-time investment for on-premise infrastructure versus the recurring subscription model offered by cloud services like AWS. Organizations can choose based on their budgetary constraints and operational preferences.
+
+### Summary
+
+Choosing between on-premise and cloud deployment for implementing the Typhoon model involves weighing initial setup costs against ongoing operational expenses. While on-premise solutions may have higher upfront costs but lower long-term operational costs if used continuously, cloud solutions offer flexibility and scalability with predictable monthly expenses.
 
 By combining efficient deployment strategies with Typhoon's cost-effective design, organizations can achieve significant savings while delivering high-quality AI solutions tailored for Thailand[^1][^5][^6].
 
