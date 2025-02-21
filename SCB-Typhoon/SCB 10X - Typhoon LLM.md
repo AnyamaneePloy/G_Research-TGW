@@ -12,7 +12,7 @@ SCB 10X has introduced **"Typhoon"**, a cutting-edge **Large Language Model (LLM
 🛠  [Steps to Apply the Model](#-steps-to-apply-the-model)  
 📈 [Benefits & Drawbacks](#-benefits-and-drawbacks)  
 🔥 [Value Proposition](#-value-proposition)  
-☁️ [Implementation: Cloud vs. On-Premise Optimization](#-implementation-optimization)
+☁️ [Implementation: Cloud vs. On Premise Optimization](#implementation-optimization)
 
 💰 [Cost Comparison Table: One-Time Payment vs. Subscription](#-cost-comparison)
 
@@ -34,7 +34,7 @@ The primary goal of Typhoon is to bridge the gap in AI resources for the Thai la
 
 ---
 
-### ⚖️ Comparison with Competitors
+### Comparison with Competitors
 
 | **Model** | **Parameters** | **Specialization** | **Performance** | **Efficiency** |
 | :-- | :-- | :-- | :-- | :-- |
@@ -117,9 +117,8 @@ Implementing Typhoon can:
 
 ---
 
-### ☁️ Implementation Optimization
-**Implementation: Cloud vs. On-Premise Optimization**
-
+### Implementation Optimization
+Implementation: Cloud vs. On-Premise Optimization
 
 #### How to Implement Typhoon
 1. **Define Project Requirements**: Determine the specific use case (e.g., Customer Service Automation) and identify the necessary features.
