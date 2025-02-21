@@ -20,17 +20,17 @@ SCB 10X has introduced **"Typhoon"**, a cutting-edge **Large Language Model (LLM
 
 ### 🔎 What is the Typhoon Model?
 
-The **Typhoon model** is a high-performance large language model (LLM) developed by SCB 10X, optimized specifically for the Thai language. It addresses challenges associated with low-resource languages like Thai, offering superior performance in natural language processing tasks. The model is available in two main versions:
+The **Typhoon model** is a high-performance large language model (LLM) developed by SCB 10X, optimized specifically for **Thai language**. It addresses challenges associated with low-resource languages like Thai, offering superior performance in natural language processing tasks. The model is available in two main versions:
 
-- **Pre-trained Model**: Open-source and free to download, designed to understand Thai vocabulary, context, and cultural nuances.
+- **Pre-trained Model**: **Open-source and free to download**, designed to understand Thai vocabulary, context, and cultural nuances.
 - **Instruction-tuned Model**: Available via API for tasks like translation, summarization, and question-answering.
 
-The latest iteration, **Typhoon 2**, includes models ranging from 1B to 70B parameters and supports multimodal capabilities (text, audio, images) for broader applications[^1][^2][^5].
+The latest iteration, **Typhoon 2**, includes models ranging from **1B to 70B parameters** and supports multimodal capabilities (text, audio, images) for broader applications[^1][^2][^5].
 
 
 ### 🎯 Objective and History
 
-The primary goal of Typhoon is to bridge the gap in AI resources for the Thai language. Historically, most LLMs have been trained on English or widely spoken languages, leaving Thai underserved. SCB 10X aims to empower Thai AI development by creating a model that understands Thai intricacies while fostering innovation in local industries. The initiative began with Typhoon-7B and has evolved into Typhoon 2 with enhanced capabilities and scalability[^1][^2][^5].
+The primary goal of Typhoon is to bridge the gap in **AI resources for the Thai language**. Historically, most LLMs have been trained on English or widely spoken languages, leaving Thai underserved. SCB 10X aims to empower Thai AI development by creating a model that understands Thai intricacies while fostering innovation in local industries. The initiative began with **Typhoon-7B** and has evolved into **Typhoon 2** with enhanced capabilities and scalability[^1][^2][^5].
 
 ---
 
@@ -38,19 +38,19 @@ The primary goal of Typhoon is to bridge the gap in AI resources for the Thai la
 
 | **Model** | **Parameters** | **Specialization** | **Performance** | **Efficiency** |
 | :-- | :-- | :-- | :-- | :-- |
-| **Typhoon 2** | 1B–70B | 🟢Thai-specific | Superior in Thai NLP tasks | 2.62x faster than GPT-3.5[^1] |
+| **Typhoon 2** | 1B–70B | 🟢Thai-specific | Superior in Thai NLP tasks | **2.62x** faster than GPT-3.5[^1] |
 | **GPT-4** | ~175B | Multilingual | State-of-the-art globally | High computational cost |
 | **Claude 2** | ~100B | Conversational AI | Strong reasoning ability | Limited Thai optimization |
 
 
-**Pros of Typhoon:**
-- Tailored for Thai language and culture.
-- Cost-efficient compared to global models like GPT-4.
-- Open-source availability fosters local innovation.
+- **Pros of Typhoon:**
+    - Tailored for Thai language and culture.
+    - Cost-efficient compared to global models like GPT-4.
+    - Open-source availability fosters local innovation.
 
-**Cons of Typhoon:**
-- Limited general-purpose multilingual capabilities.
-- Smaller parameter size may limit complex reasoning tasks compared to GPT-4[^1][^2][^6].
+- **Cons of Typhoon:**
+    - Limited general-purpose multilingual capabilities.
+    - Smaller parameter size may limit complex reasoning tasks compared to GPT-4[^1][^2][^6].
 
 
 ### ⚖️ Comparison with Other Models  
@@ -81,13 +81,11 @@ The primary goal of Typhoon is to bridge the gap in AI resources for the Thai la
 ### 📈 Benefits and Drawbacks
 
 **Benefits:**
-
 - Enhances accessibility to AI tools tailored for **Thai language processing**.
 - Reduces dependency on expensive global models like GPT-4.
 - Promotes local AI innovation and industry growth.
 
 **Drawbacks:**
-
 - May require additional fine-tuning for niche applications.
 - Limited multilingual support compared to global competitors[^1][^2][^5].
 
