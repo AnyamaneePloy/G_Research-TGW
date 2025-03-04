@@ -38,7 +38,7 @@ The primary goal of Typhoon is to bridge the gap in **AI resources for the Thai 
 
 | **Model** | **Parameters** | **Specialization** | **Performance** | **Efficiency** |
 | :-- | :-- | :-- | :-- | :-- |
-| **Typhoon 2** | 1B–70B | 🟢Thai-specific | Superior in Thai NLP tasks | **2.62x** faster than GPT-3.5[^1] |
+| **Typhoon** | 7B | 🟢Thai-specific | Superior in Thai NLP tasks | **2.62x** faster than GPT-3.5[^1] |
 | **GPT-4** | ~175B | Multilingual | State-of-the-art globally | High computational cost |
 | **Claude 2** | ~100B | Conversational AI | Strong reasoning ability | Limited Thai optimization |
 
